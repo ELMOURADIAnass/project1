@@ -1,15 +1,21 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+```
+# Build artifacts
+build/
+.gradle/
+target/
+
+# Dependencies
+.libs.versions/
+
+# IDE files
+.idea/
+.vscode/
+
+# Compiled files
+*.class
+*.jar
+*.aar
+
+# Local configuration
 local.properties
+```
